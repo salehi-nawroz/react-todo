@@ -5,7 +5,7 @@ function App() {
     <div style={{ textAlign: 'center' }}>
       <header>
         <p>
-          Edit <code>src/App.js</code> and save to reload.
+          Edit <code>src/App.js</code> and save to reload. this is fro branch 1.1
         </p>
         <a href="https://reactjs.org" target="_blank" rel="noopener noreferrer">
           Learn React
