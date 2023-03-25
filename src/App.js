@@ -31,7 +31,7 @@ function App() {
                           <span><b>ID: </b> {item.id}</span>&nbsp;&nbsp;
                           <span><b>Title: </b>
                             {item.title}
-                          </span>&nbsp;&nbsp;
+                          </span>&nbsp;&nbsp;&nbsp;&nbsp;
                       </li>
                     );
               }) 
