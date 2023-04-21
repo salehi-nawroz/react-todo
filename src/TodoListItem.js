@@ -1,12 +1,11 @@
 import React from "react";
 
-let TodoListItem = (probs) => {
-        let item=probs.todo;
+let TodoListItem = ({todo}) => {
         return (
             <li>
-                <span><b>ID: </b> {item.id}</span>
+                <span><b>ID: </b> {todo.id}</span>
                     &nbsp;&nbsp;
-                <span><b>Title: </b>{item.title} </span>
+                <span><b>Title: </b>{todo.title} </span>
              </li>
         );
 }
