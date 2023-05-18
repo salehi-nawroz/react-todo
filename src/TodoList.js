@@ -2,10 +2,10 @@ import React from "react";
 import TodoListItem from "./TodoListItem";
 
 
-let TodoList = ({List}) => (
+let TodoList = ({List, onRemoveTodo}) => (
         <ul>
         { List.map((item) =>(
-            <TodoListItem key={item.id} todo={item} />
+            <TodoListItem key={item.id} todo={item} onRemoveTodo={onRemoveTodo} />
           ))} 
         
     </ul>);
